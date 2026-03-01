@@ -9,34 +9,47 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
-        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+        { "file": "sounds/sh_add_player_01.wav", "label": "Ah, revenge" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/sh_willattack_01.wav", "label": "If I must" },
+        { "file": "sounds/sh_sent_01.wav", "label": "Generosity will kill me" },
+        { "file": "sounds/sh_siege_01.wav", "label": "Another fool loses his home" }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
-        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+        { "file": "sounds/sh_vict_01.wav", "label": "Sweet victory" },
+        { "file": "sounds/sh_boast_01.wav", "label": "Watch and learn" },
+        { "file": "sounds/sh_vict_04.wav", "label": "Gets his ascending orders" }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error_1.mp3", "label": "Error" }
+        { "file": "sounds/sh_anger_01.wav", "label": "Blast and thunder" },
+        { "file": "sounds/sh_anger_02.wav", "label": "That's my castle" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/sh_help_01.wav", "label": "Help, surrounded" },
+        { "file": "sounds/sh_req_01.wav", "label": "Couldn't send me some goods" },
+        { "file": "sounds/sh_nervous_02.wav", "label": "Fetch the tax collector" }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+        { "file": "sounds/sh_notsent_01.wav", "label": "Not Father Christmas" },
+        { "file": "sounds/sh_nohelp_01.wav", "label": "Do I look like I can help" }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+        { "file": "sounds/sh_noattack_01.wav", "label": "What a great idea, I don't think so" },
+        { "file": "sounds/sh_noattack_02.wav", "label": "Do your own dirty work" },
+        { "file": "sounds/sh_kick_player_01.wav", "label": "Idiot" }
       ]
     }
   }
